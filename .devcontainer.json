@@ -1,5 +1,5 @@
 {
-  "name": "docker-nginx-mysql-rails-vue",
+  "name": "docker-nginx-mysql-rails-vue-backend",
 	"dockerComposeFile": "../docker-compose.yml",
 	"service": "backend",
 	"workspaceFolder": "/backend",
@@ -14,5 +14,6 @@
 				"shopify.ruby-lsp"
 			]
 		}
-	}
+	},
+	"shutdownAction": "none"
 }
